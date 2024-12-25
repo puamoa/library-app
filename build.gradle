@@ -21,7 +21,7 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	runtimeOnly 'org.springframework.boot:spring-boot-properties-migrator'
+	//runtimeOnly 'org.springframework.boot:spring-boot-properties-migrator'
 }
 
 tasks.named('test') {
